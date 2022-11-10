@@ -6,12 +6,11 @@ const runAllQueries = () => {
   try {
     connection.connect();
     let queries = [
-      // get all users
-      // "SELECT * FROM Users",
-      // get all users with orders
-      // "SELECT Users.*, Orders.* FROM Users INNER JOIN Orders ON Users.PersonId = Orders.UserId",
-      // get all users and also get associated orders if they exist
-      // "SELECT Users.*, Orders.* FROM Users LEFT JOIN Orders ON Users.PersonId = Orders.UserId",
+      // Q1 get all users with orders
+      //
+      // Q2 get all users and also get associated orders if they exist
+      //
+      // Q3 get matching orders if they exist and all products
     ];
 
     for (let x = 0; x < queries.length; x++) {
@@ -23,12 +22,18 @@ const runAllQueries = () => {
         console.log(queries[x], results);
       });
     }
-
+  } catch (err) {
+    console.log("error", err);
+  } finally {
     // close after all executions
     connection.end();
-  } catch (err) {
-    console.log("error querying data", err);
   }
 };
 
 exports.runAllQueries = runAllQueries;
+
+/*
+ANSWERS
+Q1
+
+*/

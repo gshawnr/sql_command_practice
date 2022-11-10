@@ -1,4 +1,10 @@
 require("dotenv").config();
-const queries = require("./query/queries");
+const basic = require("./commands/basic");
+const infrastructure = require("./commands/infrastructure");
+const join = require("./commands/join");
+const insert_remove = require("./commands/insert_remove");
 
-queries.runAllQueries();
+basic.runAllQueries();
+// infrastructure.runAllQueries();
+// join.runAllQueries();
+// insert_remove.runAllQueries();
