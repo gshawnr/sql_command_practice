@@ -12,6 +12,7 @@ const runAllQueries = () => {
       // Q1 create a new table new table with id col1 and col2
       //
       // Q2 drop a table created above if not exists do Q1 first
+      //
     ];
 
     for (let x = 0; x < queries.length; x++) {

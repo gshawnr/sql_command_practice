@@ -15,7 +15,7 @@ const runAllQueries = () => {
       //
       // Q3 insert a new user without an last name value
       //
-      // Q4 remove user with first name of Jane
+      // Q4 remove user with first name of Jane (prev user)
     ];
 
     for (let x = 0; x < queries.length; x++) {
