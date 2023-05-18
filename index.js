@@ -12,18 +12,20 @@ const count_avg_sum = require("./commands/count_avg_sum");
 const group = require("./commands/group");
 const procedures = require("./commands/procedures");
 
+// EVEN
 // infrastructure.runAllQueries();
 // basic.runAllQueries();
 // join.runAllQueries();
 // insert_remove.runAllQueries();
 // wildcards.runAllQueries();
 // update.runAllQueries();
+
+// ODD
 // subqueries.runAllQueries();
 // union.runAllQueries();
 // order_and_sort.runAllQueries();
 // count_avg_sum.runAllQueries();
 // group.runAllQueries();
-// procedures.runAllQueries();
 
 // conditions: having, exists, any, all
 // range (between)

@@ -10,7 +10,7 @@ const runAllQueries = () => {
       //
       // Q2 get all users and also get associated orders if they exist
       //
-      // Q3 get matching orders if they exist and all products
+      // Q3 get all orders and all products, matching where possible (hint mysql does not support full join)
     ];
 
     for (let x = 0; x < queries.length; x++) {

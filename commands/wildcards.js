@@ -11,7 +11,7 @@ const runAllQueries = () => {
     const queries = [
       // get users where first name starts with "j"
       //
-      // get all users where firstname and lastname starts with s
+      // get users that have a firstname of as follows St_ve
     ];
 
     for (let query of queries) {
